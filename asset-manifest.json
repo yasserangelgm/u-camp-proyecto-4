@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/u-camp-proyecto-4/static/css/main.c7ec3132.css",
-    "main.js": "/u-camp-proyecto-4/static/js/main.08242bc9.js",
+    "main.js": "/u-camp-proyecto-4/static/js/main.145d053d.js",
     "index.html": "/u-camp-proyecto-4/index.html",
     "main.c7ec3132.css.map": "/u-camp-proyecto-4/static/css/main.c7ec3132.css.map",
-    "main.08242bc9.js.map": "/u-camp-proyecto-4/static/js/main.08242bc9.js.map"
+    "main.145d053d.js.map": "/u-camp-proyecto-4/static/js/main.145d053d.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.08242bc9.js"
+    "static/js/main.145d053d.js"
   ]
 }
