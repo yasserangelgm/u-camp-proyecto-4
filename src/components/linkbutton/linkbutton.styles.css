@@ -1,0 +1,26 @@
+.link-button {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  width: fit-content;
+}
+
+@media (min-width: 412px) {
+  .link-button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .link-button {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+  }
+}

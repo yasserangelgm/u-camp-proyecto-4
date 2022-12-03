@@ -1,0 +1,56 @@
+.content-wrapper {
+  width: 100%;
+
+  display: block;
+}
+
+.hero {
+  width: 100%;
+  background-color: var(--gray-color);
+}
+
+.hero .mobile-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text h1 {
+  text-align: center;
+  color: var(--orange-color);
+  font-size: 40px;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 821px) {
+  .hero .mobile-img {
+    display: none;
+  }
+  main .content-wrapper {
+    background-image: url('../../assets/hero-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hero {
+    padding-top: 80px;
+    background-color: transparent;
+    width: 35%;
+  }
+  .hero-text {
+    padding-top: 80px;
+    padding: 4rem 2rem;
+    height: 100%;
+  }
+  .hero-text h1 {
+    font-size: 45px;
+  }
+}
