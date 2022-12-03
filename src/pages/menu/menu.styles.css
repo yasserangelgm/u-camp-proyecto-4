@@ -1,0 +1,115 @@
+#menu-section {
+  padding-top: 80px;
+}
+
+section .content-wrapper#menu {
+  width: 100%;
+  /* min-height: 100vh; */
+}
+.category {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.category img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  /*  margin-bottom: -1rem; */
+}
+
+.category h2 {
+  padding: 1.5rem 1rem;
+  font-size: 30px;
+  margin-top: 0;
+  background-color: var(--ligth-brown-color);
+  text-align: center;
+  color: var(--orange-color);
+}
+
+.category-item {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--ligth-dark-bg-color);
+  padding: 1rem;
+}
+
+.category-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.item-name {
+  padding-top: 1rem;
+  color: var(--white-color);
+  font-size: 25px;
+}
+
+.item-desc {
+  color: var(--white-color);
+  font-size: 15px;
+}
+
+@media (min-width: 800px) {
+  .category img {
+    height: 650px;
+  }
+
+  .category h2 {
+    padding: 2.5rem 1rem;
+    font-size: 45px;
+    margin-top: 0;
+    background-color: var(--ligth-brown-color);
+    text-align: center;
+    color: var(--orange-color);
+  }
+  .item-name {
+    padding-top: 1rem;
+    color: var(--white-color);
+    font-size: 35px;
+  }
+
+  .item-desc {
+    color: var(--white-color);
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-container {
+    display: flex;
+  }
+
+  .category {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+  .category img {
+    height: 400px;
+  }
+
+  .category h2 {
+    padding: 1.5rem 1rem;
+    font-size: 30px;
+    color: var(--orange-color);
+  }
+
+  .category-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-wrapper:nth-child(even) .category-container .category-item {
+    background-color: var(--dark-bg-color);
+  }
+  .content-wrapper:nth-child(odd) .category-container .category-item {
+    background-color: var(--ligth-dark-bg-color);
+  }
+  .category-wrapper {
+    width: 80%;
+  }
+}
