@@ -26,3 +26,9 @@ body {
   width: 100%;
   margin: 0 auto;
 } */
+
+.content-wrapper {
+  width: 100%;
+
+  display: block;
+}
