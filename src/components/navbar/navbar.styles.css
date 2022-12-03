@@ -1,0 +1,124 @@
+nav {
+  margin-right: 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-btn {
+  height: 32px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+  background: var(--orange-color);
+  border-radius: 3px;
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  margin-top: 13px;
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-btn span::before {
+  margin-top: -12px;
+}
+
+.menu-btn span::after {
+  margin-top: 12px;
+}
+
+.menu-btn.clicked span {
+  background: transparent;
+}
+
+.menu-btn.clicked span::before {
+  margin-top: 0;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu-btn.clicked span::after {
+  margin-top: 0;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.menu-wrapper {
+  width: 100%;
+}
+
+.menu-wrapper.visible {
+  transform: scale(1);
+  border-radius: 0;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--red-color);
+  padding-left: 0;
+  transition: all 0.3s ease-in;
+  z-index: 2;
+}
+
+.menu li {
+  list-style: none;
+  margin: 20px 0;
+  margin-left: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--orange-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.menu.hidden {
+  left: -100%;
+  transition: all 0.3s ease-in;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 800px) {
+  .menu-btn {
+    display: none;
+  }
+  .menu {
+    position: initial;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    background-color: transparent;
+    transition: none;
+  }
+  .menu li {
+    margin-left: 2em;
+  }
+  .menu li a {
+    font-size: 18px;
+  }
+}
