@@ -19,9 +19,11 @@ section#promos.content-wrapper {
   transition: all ease 1000ms;
 }
 
-.slide img {
+.slide .img {
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
+  background-position: center !important;
+  background-size: cover !important;
   width: 100%;
   vertical-align: top;
 }
@@ -43,4 +45,13 @@ section#promos.content-wrapper {
 
 #next-slide {
   right: 20px;
+}
+
+@media (min-width: 1024px) {
+  .slide-container {
+    height: 500px;
+  }
+  .slide {
+    width: 33.3%;
+  }
 }

@@ -5,7 +5,7 @@ import img1 from '../../assets/promo-1.jpg';
 import img2 from '../../assets/promo-2.jpg';
 import img3 from '../../assets/promo-3.jpg';
 
-const Slide = () => {
+const Slide = ({ promos }) => {
   const slideshow = useRef(null);
 
   const goToNext = () => {
@@ -45,15 +45,14 @@ const Slide = () => {
     <section className="content-wrapper" id="promos">
       <div className="slide-container">
         <div className="slide-show" ref={slideshow}>
-          <div className="slide">
-            <img src={img1} alt="Promocion 2 x 1" />
-          </div>
-          <div className="slide">
-            <img src={img3} alt="Promocion Sabados" />
-          </div>
-          <div className="slide">
-            <img src={img2} alt="Promocion Entrega a domicilio" />
-          </div>
+          {promos.map((promo) => (
+            <div className="slide" key={promo.id}>
+              <div
+                className="img"
+                style={{ background: `url(${promo.data.image})` }}
+              ></div>
+            </div>
+          ))}
         </div>
         <div className="arrow" id="prev-slide">
           <i className="fa-solid fa-chevron-left" onClick={goToPrev}></i>
