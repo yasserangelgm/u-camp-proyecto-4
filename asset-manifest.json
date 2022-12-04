@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/u-camp-proyecto-4/static/css/main.f8d28f5a.css",
-    "main.js": "/u-camp-proyecto-4/static/js/main.2c78fbac.js",
+    "main.css": "/u-camp-proyecto-4/static/css/main.a88945c7.css",
+    "main.js": "/u-camp-proyecto-4/static/js/main.8d010610.js",
+    "static/media/hero-desktop.jpg": "/u-camp-proyecto-4/static/media/hero-desktop.89bc03518a2742c2e151.jpg",
     "static/media/logo.png": "/u-camp-proyecto-4/static/media/logo.98cb3d7ef5e24d8b9315.png",
+    "static/media/hero-mobile.jpg": "/u-camp-proyecto-4/static/media/hero-mobile.0c2f510e08d832cc0218.jpg",
+    "static/media/cat-1.jpg": "/u-camp-proyecto-4/static/media/cat-1.18fb6a8d8dd27377f9db.jpg",
+    "static/media/cat-2.jpg": "/u-camp-proyecto-4/static/media/cat-2.a8244140cc817ca9c0c1.jpg",
     "index.html": "/u-camp-proyecto-4/index.html",
-    "main.f8d28f5a.css.map": "/u-camp-proyecto-4/static/css/main.f8d28f5a.css.map",
-    "main.2c78fbac.js.map": "/u-camp-proyecto-4/static/js/main.2c78fbac.js.map"
+    "main.a88945c7.css.map": "/u-camp-proyecto-4/static/css/main.a88945c7.css.map",
+    "main.8d010610.js.map": "/u-camp-proyecto-4/static/js/main.8d010610.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8d28f5a.css",
-    "static/js/main.2c78fbac.js"
+    "static/css/main.a88945c7.css",
+    "static/js/main.8d010610.js"
   ]
 }
