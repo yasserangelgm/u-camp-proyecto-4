@@ -11,7 +11,6 @@ const Menu = () => {
   useEffect(() => {
     const menuQuery = query(collection(db, 'menu'));
     onSnapshot(menuQuery, (querySnapshot) => {
-      console.log(querySnapshot);
       setMenus(
         querySnapshot.docs.map((menu) => {
           return { id: menu.id, data: menu.data() };
@@ -23,7 +22,6 @@ const Menu = () => {
   /*     const itemsQuery = query(collection(db, 'menu'));
    */
 
-  console.log(menus);
   return (
     <>
       <section id="menu-section">
