@@ -1,10 +1,6 @@
 import { useRef } from 'react';
 import './slide.styles.css';
 
-import img1 from '../../assets/promo-1.jpg';
-import img2 from '../../assets/promo-2.jpg';
-import img3 from '../../assets/promo-3.jpg';
-
 const Slide = ({ promos }) => {
   const slideshow = useRef(null);
 

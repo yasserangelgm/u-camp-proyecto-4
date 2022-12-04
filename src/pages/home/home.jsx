@@ -22,7 +22,6 @@ const Home = () => {
   return (
     <>
       <Hero />
-
       <Slide promos={promos} />
     </>
   );

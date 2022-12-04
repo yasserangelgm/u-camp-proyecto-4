@@ -2,6 +2,8 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
+//TODO: Cambiar elementos de firebaseConfig a .env (en la primera prueba parecía no conetarse a firebase)
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: 'AIzaSyA65aKQIuNS8xow3VGWvRZmVrwkO9a9kI0',
