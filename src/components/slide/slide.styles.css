@@ -37,6 +37,7 @@ section#promos.content-wrapper {
   z-index: 1;
   padding: 10px;
   background-color: #f15d2269;
+  cursor: pointer;
 }
 
 #prev-slide {

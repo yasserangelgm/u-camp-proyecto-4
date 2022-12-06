@@ -66,14 +66,14 @@ section .content-wrapper#menu {
     color: var(--orange-color);
   }
   .item-name {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     color: var(--white-color);
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .item-desc {
     color: var(--white-color);
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
