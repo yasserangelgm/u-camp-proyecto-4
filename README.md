@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## NOTAS
+Abrir [https://yasserangelgm.github.io/u-camp-proyecto-4/](https://yasserangelgm.github.io/u-camp-proyecto-4/) para acceder al proyecto en GitHub Pages. Dar click en Volver a la página principal para poder ver correctamente la página.
+
 ## Available Scripts
 
 In the project directory, you can run:
