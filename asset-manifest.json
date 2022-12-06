@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/u-camp-proyecto-4/static/css/main.a88945c7.css",
-    "main.js": "/u-camp-proyecto-4/static/js/main.f89c6b2b.js",
+    "main.css": "/u-camp-proyecto-4/static/css/main.d65eefe2.css",
+    "main.js": "/u-camp-proyecto-4/static/js/main.b57b1720.js",
     "static/media/hero-desktop.jpg": "/u-camp-proyecto-4/static/media/hero-desktop.89bc03518a2742c2e151.jpg",
     "static/media/logo.png": "/u-camp-proyecto-4/static/media/logo.98cb3d7ef5e24d8b9315.png",
     "static/media/hero-mobile.jpg": "/u-camp-proyecto-4/static/media/hero-mobile.0c2f510e08d832cc0218.jpg",
     "index.html": "/u-camp-proyecto-4/index.html",
-    "main.a88945c7.css.map": "/u-camp-proyecto-4/static/css/main.a88945c7.css.map",
-    "main.f89c6b2b.js.map": "/u-camp-proyecto-4/static/js/main.f89c6b2b.js.map"
+    "main.d65eefe2.css.map": "/u-camp-proyecto-4/static/css/main.d65eefe2.css.map",
+    "main.b57b1720.js.map": "/u-camp-proyecto-4/static/js/main.b57b1720.js.map"
   },
   "entrypoints": [
-    "static/css/main.a88945c7.css",
-    "static/js/main.f89c6b2b.js"
+    "static/css/main.d65eefe2.css",
+    "static/js/main.b57b1720.js"
   ]
 }
